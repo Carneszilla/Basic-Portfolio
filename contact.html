@@ -3,7 +3,7 @@
 <html>
 <head>
   <title>Contact Form</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     <style >
 	  .button {
@@ -11,15 +11,49 @@
 	  	background-color: yellow;
 	  }
 
+   .container {
+    background-color: #ebebeb;
+    border: 5px dotted orange;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+   }
     </style>
+    
 
 
 </head>
 
 <body>
 
+  <!-- Begin Header and Nav container-->
+
+  <div class=" container">
+
+      <header> 
+
+          <h1>Jeremiah Carnes</h1>
+
+          <nav>
+             <div id="about"><a href="about"> About </a></div>
+
+             <div id="portfolio"><a href="portfolio"> Portfolio </a></div>
+
+             <div id="contact"><a href="contact"> Contact </a></div>
+          </nav>
+
+      </header>
+      
+
+   </div>
+   <!-- End of header  and Nav container-->
+
+
+
+<div class="container">
+
   <form>
-      <label for="name">Your name:</label>
+      <label for="name">Jeremiah :</label>
       <br/>
       <input type="text" name="name" placeholder="Your Name Goes Here">
 
@@ -46,6 +80,7 @@
 
     
     </form>
+  </div>
 
 </body>
 </html>
